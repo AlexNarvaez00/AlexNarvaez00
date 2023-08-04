@@ -9,7 +9,7 @@
 
 🔄 Un dato interesante: si dos componentes utilizan el mismo Custom **hook**, ¡NO comparten estado! Esto significa que cada componente tiene su propia instancia aislada de estado, lo que garantiza que los cambios en uno, no afecten al otro. ¡Una forma segura y eficiente de manejar el estado en React!
 
-🧩 Además, los Custom  ***hooks*so  mcopletamente independientes y aislados. Cuando utilizas uno en tu componente, todo el estado y efecto (`useEffect`) dentro de él, está protegido y no se ve afectado por otros **hook**s o componentes. Esto asegura una mejor encapsulación y evita efectos secundarios no deseados.
+🧩 Además, los Custom  **hooks** son completamente independientes y aislados. Cuando utilizas uno en tu componente, todo el estado y efecto (`useEffect`) dentro de él, está protegido y no se ve afectado por otros **hook**s o componentes. Esto asegura una mejor encapsulación y evita efectos secundarios no deseados.
 
 ¿Te preguntas cómo empezar a usarlos? ¡Es más fácil de lo que piensas! Simplemente define tu propio **hook** personalizado con la lógica de estado que deseas reutilizar, y luego utilízalo en tus componentes como cualquier otro **hook** proporcionado por React.
 
