@@ -1,6 +1,6 @@
 # Patron de diseño `Singleton`.
 
-Recuerda que puedes encontrar más información en el siguiente enlace .
+Recuerda que puedes encontrar más información en el siguiente enlace [Refactoring Guru "Singleton".](https://refactoring.guru/es/design-patterns/singleton)
 
 ___
 
@@ -31,10 +31,10 @@ class Singleton {
     private Singleton(){}
 
     public static Singleton getInstance() {
-        if (!MiSingleton.instanciaUnica) {
-            MiSingleton.instanciaUnica = new MiSingleton();
+        if (!Singleton.instanciaUnica) {
+            Singleton.instanciaUnica = new MiSingleton();
         }
-        return MiSingleton.instanciaUnica;
+        return Singleton.instanciaUnica;
     }
 }
 

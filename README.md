@@ -49,5 +49,5 @@
 
 ## Apuntes sobre las cosas que he aprendido.
 
-* [Patrones de Diseño](/desing-patterns/README.md)
-* [React](/react/README.md)
+* [Patrones de Diseño](/notes/desing-patterns/README.md)
+* [React](/notes/react/README.md)
